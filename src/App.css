@@ -118,7 +118,7 @@ p{
 }
 
 .back{
-  background-image: url("../public/images/back.webp");
+  background-image: url("../public/images/back1.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -156,4 +156,20 @@ p{
 
 .flex{
   display: flex;
+}
+
+.grid2{
+  display: grid;
+}
+
+@media screen and (max-width: 768px) {
+  .grid{
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .back{
+    background-position: center;
+    padding-top: 50%;
+    height: 80vh;
+  }
 }
