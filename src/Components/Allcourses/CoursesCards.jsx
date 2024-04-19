@@ -6,7 +6,7 @@ import { coursesCard } from '../../dummydata'
 const CoursesCards = () => {
   return (
     <div>
-      <section className='coursecard'>
+      <section className='courseCard'>
         <div className="container grid2">
           {coursesCard.map((val) => (
             <div className="items">
@@ -43,6 +43,10 @@ const CoursesCards = () => {
                   </div>
                 </div>
               </div>
+              <div className="price">
+                <h3>{val.priceAll} / {val.pricePer}</h3>
+              </div>
+              <button className='outline-btn'>inscribete</button>
             </div>
           ))}
         </div>

@@ -6,7 +6,7 @@ import AboutCard from '../../Components/About/AboutCard'
 const About = () => {
   return (
     <>
-      <Back title = 'About us'/>
+      <Back title = 'Nosotros'/>
       <AboutCard />
     </>
   )

@@ -1,14 +1,14 @@
-.coursesCard{
+.courseCard{
   padding: 50px 0;
 }
 
-.coursesCard .items{
+.courseCard .items{
   background-color: #fff;
   padding: 30px;
   text-align: center;
 }
 
-.coursesCard .img{
+.courseCard .img{
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -16,9 +16,55 @@
   padding: 15px;
 }
 
-.coursesCard img{
+.courseCard img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+.courseCard .text{
+  margin-left: 15px;
+  text-align: center;
+}
+
+.courseCard .text h1{
+  font-style: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.courseCard .rate{
+    margin: 20px 0;
+    color: #1eb2a6;
+    margin-right: 5px;
+}
+
+.courseCard .details .dimg img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.courseCard .details .box{
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.courseCard .details span{
+  color: #1eb2a6;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.courseCard .price{
+  margin: 30px;
+  background-color: #f8f8f8f8;
+  padding: 10px;
+}
+
+.courseCard h3{
+  font-weight: 500;
+  color: #1eb2a6;
+}

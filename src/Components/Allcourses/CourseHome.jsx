@@ -1,12 +1,14 @@
 import React from 'react'
 import Back from '../../Components/Common/Back/Back'
 import CoursesCards from './CoursesCards'
+import OnlineCourses from './OnlineCourses'
 
 const CourseHome = () => {
   return (
     <>
-      <Back title = 'Explore Courses'/>
-      <CoursesCards title = 'Explore Courses'/>
+      <Back title = 'Nuestro Metodología'/>
+      <CoursesCards title = 'Nuestro Metodología'/>
+      <OnlineCourses />
     </>
   )
 }
