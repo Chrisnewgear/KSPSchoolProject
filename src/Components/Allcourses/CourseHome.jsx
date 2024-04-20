@@ -6,8 +6,8 @@ import OnlineCourses from './OnlineCourses'
 const CourseHome = () => {
   return (
     <>
-      <Back title = 'Nuestro Metodología'/>
-      <CoursesCards title = 'Nuestro Metodología'/>
+      <Back title = 'Nuestra Metodología'/>
+      <CoursesCards title = 'Nuestra Metodología'/>
       <OnlineCourses />
     </>
   )

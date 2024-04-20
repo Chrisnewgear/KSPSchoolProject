@@ -177,14 +177,35 @@ p{
   color: #fff;
 }
 
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.shadow{
+  box-shadow: 0 6px 25px -2 rgba(0 0 0 /6%);
+  background-color: #fff;
+}
+
 @media screen and (max-width: 768px) {
-  .grid{
-    grid-template-columns: repeat(4, 1fr);
+  .grid,
+  .grid2,
+  .grid3{
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .back{
     background-position: center;
     padding-top: 50%;
     height: 80vh;
+  }
+
+  .margin{
+    margin-top: 30%;
   }
 }
