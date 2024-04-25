@@ -27,7 +27,7 @@ const Header = () =>{
               <Link to="/team">Equipo</Link>
             </li>
             <li>
-              <Link to="/login">Login</Link>
+              <Link to="/payment">Pagos</Link>
             </li>
           </ul>
           <div className="start">
