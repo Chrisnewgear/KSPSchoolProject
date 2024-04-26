@@ -9,7 +9,7 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-              <Title subtitle='BIENVENIDOS A KSP SCHOOL' title='La mejor educación' />
+              <Title subtitle='BIENVENIDOS A KSP SCHOOL' title='Una Educación de Calidad' />
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi rerum, dolores dignissimos facere esse nihil doloribus quasi illum soluta. Animi eos numquam fugiat beatae sed magni dolor ipsam eum officiis?</p>
             <div className='button'>
               <button className='primary-btn'>

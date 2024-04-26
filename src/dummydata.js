@@ -2,20 +2,21 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Educación Online",
+    desc: "Aprende desde cualquier lugar. Conecta con maestros y compañeros en línea y disfruta de una educación flexible y de calidad.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    // cover: "https://img.icons8.com/ios/80/000000/diploma.png",
+    cover: "https://img.icons8.com/ios/50/student-center.png",
+    title: "Educación Segura",
+    desc: "Ambiente seguro y protegido para el crecimiento personal y académico, con supervisión cercana y enseñanza de toma de decisiones sabias y responsables.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Excelentes Maestros",
+    desc: "Nuestros maestros altamente capacitados brindan una educación excepcional en línea y presencialmente, adaptada a tus necesidades y preferencias",
   },
 ]
 export const awrapper = [
