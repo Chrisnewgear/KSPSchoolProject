@@ -49,6 +49,10 @@ header ul li a:hover{
   font-weight: 500;
 }
 
+.start .button{
+  margin-top: 20px;
+}
+
 .toggle{
   display: none;
 }
