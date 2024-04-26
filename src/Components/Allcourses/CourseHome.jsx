@@ -2,6 +2,7 @@ import React from 'react'
 import Back from '../../Components/Common/Back/Back'
 import CoursesCards from './CoursesCards'
 import OnlineCourses from './OnlineCourses'
+import WspButton from '../WhatsappButton/WspButton'
 
 const CourseHome = () => {
   return (
@@ -9,6 +10,7 @@ const CourseHome = () => {
       <Back title = 'Nuestra Metodología'/>
       <CoursesCards title = 'Nuestra Metodología'/>
       <OnlineCourses />
+      <WspButton />
     </>
   )
 }

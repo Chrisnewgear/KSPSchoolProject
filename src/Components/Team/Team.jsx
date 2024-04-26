@@ -1,6 +1,7 @@
 import React from 'react'
 import Back from '../Common/Back/Back'
 import TeamCard from './TeamCard'
+import WspButton from '../WhatsappButton/WspButton'
 
 const Team = () => {
   return (
@@ -11,6 +12,7 @@ const Team = () => {
         <TeamCard />
       </div>
     </section>
+    <WspButton />
     </>
   )
 }

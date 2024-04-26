@@ -2,6 +2,7 @@ import React from 'react'
 import Back from '../Common/Back/Back'
 import PriceCard from './PriceCard'
 import Faq from './Faq'
+import WspButton from '../WhatsappButton/WspButton'
 import './price.css'
 
 const Price = () => {
@@ -14,6 +15,7 @@ const Price = () => {
       </div>
     </section>
     <Faq />
+    <WspButton />
   </>
   )
 }

@@ -5,6 +5,7 @@ import HAbout from './HAbout'
 import Testimonal from './testimonal/Testimonal'
 import Hblog from './Hblog'
 import Hprice from './Hprice'
+import WspButton from '../WhatsappButton/WspButton'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Testimonal />
       <Hblog />
       <Hprice />
+      <WspButton />
     </>
   )
 }

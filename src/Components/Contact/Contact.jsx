@@ -1,6 +1,7 @@
 import React from 'react'
 import Back from '../Common/Back/Back'
 import './contact.css'
+import WspButton from '../WhatsappButton/WspButton'
 
 const Contact = () => {
   const map ='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249.18928242847153!2d-79.89888916150979!3d-2.1427575308845417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1714111405516!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
@@ -10,7 +11,7 @@ const Contact = () => {
       <section className="contact padding">
         <div className="container shadow flexSB">
           <div className="left row">
-            <iframe src={map}></iframe>
+            <iframe src={map} title='location'></iframe>
           </div>
           <div className="right row">
             <h1>Contáctanos</h1>
@@ -43,6 +44,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <WspButton />
     </>
   )
 }

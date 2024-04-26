@@ -2,6 +2,8 @@ import React from 'react'
 import BlogCard from '../Blog/BlogCard'
 import Back from '../Common/Back/Back'
 import './blog.css'
+import '../WhatsappButton/wspstyles.css'
+import WspButton from '../WhatsappButton/WspButton'
 
 const Blog = () => {
   return (
@@ -12,6 +14,7 @@ const Blog = () => {
           <BlogCard />
         </div>
       </section>
+      <WspButton />
     </>
   )
 }
