@@ -57,6 +57,9 @@ header ul li a:hover{
   display: none;
 }
 
+.logo span{
+  margin-top: 100px;
+}
 @media screen and (max-width: 768px) {
   .start{
     clip-path: none;

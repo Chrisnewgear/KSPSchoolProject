@@ -24,7 +24,7 @@ const Header = () =>{
               <Link to="/contact">Contacto</Link>
             </li>
             <li>
-              <Link to="/team">Equipo</Link>
+              <Link to="/team">Docentes</Link>
             </li>
             <li>
               <Link to="/payment">Pagos</Link>
