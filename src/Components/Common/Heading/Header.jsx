@@ -32,6 +32,9 @@ const Header = () =>{
             <li>
               <Link to="/blog">Actividades</Link>
             </li>
+            <li>
+              <Link to="/contact">Contactos</Link>
+            </li>
           </ul>
           <div className="start">
             <div className="button">Descubre tu potencial</div>

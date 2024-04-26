@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home"
 import Team from "./Components/Team/Team";
 import Price from "./Components/Pricing/Price";
 import Blog from "./Components/Blog/Blog"; 
+import Contact from "./Components/Contact/Contact";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App () {
@@ -20,6 +21,7 @@ function App () {
           <Route path='/team' exact component={Team} />
           <Route path='/payment' exact component={Price} />
           <Route path='/blog' exact component={Blog} />
+          <Route path='/contact' exact component={Contact} />
         </Switch>
       </Router>
     </>
