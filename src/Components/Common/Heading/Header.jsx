@@ -29,6 +29,9 @@ const Header = () =>{
             <li>
               <Link to="/payment">Pagos</Link>
             </li>
+            <li>
+              <Link to="/blog">Actividades</Link>
+            </li>
           </ul>
           <div className="start">
             <div className="button">Descubre tu potencial</div>

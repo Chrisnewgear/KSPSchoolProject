@@ -29,9 +29,6 @@ const Faq = () => {
                     <p>{val.desc}</p>
                   </div>
                 ) : null}
-              {/* <div className="text">
-                <p>{val.desc}</p>
-              </div> */}
             </div>
           ))}
         </div>
