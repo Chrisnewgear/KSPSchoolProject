@@ -40,16 +40,16 @@ const HAbout = () => {
                                 <h4>{details.name}</h4>
                               </div>
                             </div>
-                            <span>{details.totalTime}</span>
+                            {/* <span>{details.totalTime}</span> */}
                           </>
                         ))}
                       </div>
                     </div>
                   </div>
-                  <div className="price">
+                  {/* <div className="price">
                     <h3>{val.priceAll} / {val.pricePer}</h3>
-                  </div>
-                  <button className='outline-btn'>inscribete</button>
+                  </div> */}
+                  {/* <button className='outline-btn'>inscribete</button> */}
                 </div>
               ))}
             </div>

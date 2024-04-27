@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='container'>
           <div className='row'>
               <Title subtitle='BIENVENIDOS A KSP SCHOOL' title='Educación de Calidad' />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi rerum, dolores dignissimos facere esse nihil doloribus quasi illum soluta. Animi eos numquam fugiat beatae sed magni dolor ipsam eum officiis?</p>
+            <p>Bienvenido a nuestra escuela, donde ofrecemos una educación integral y transformadora en un ambiente seguro y acogedor. Nuestros maestros altamente capacitados brindan una educación de calidad tanto en línea como presencialmente, centrada en valores morales y espirituales.</p>
             <div className='button'>
               <button className='primary-btn'>
               <Link to="/contact">CONTACTANOS</Link> <i className='fa fa-long-arrow-alt-right'></i>

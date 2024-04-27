@@ -46,6 +46,10 @@
   margin-top: 20px;
 }
 
+.courseCard .details .para {
+  margin-left: 60px;
+}
+
 .courseCard .details .box{
   display: flex;
   align-items: center;

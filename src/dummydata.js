@@ -288,23 +288,23 @@ export const team = [
 ]
 export const price = [
   {
-    name: "BASIC PLAN",
-    price: "49K",
+    name: "MATRICULA",
+    price: "240.00",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    name: "BEGINNER PLAN",
-    price: "79K",
+    name: "MENSUALIDAD BACHILLERATO",
+    price: "100.00",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    name: "PREMIUM PLAN",
-    price: "109k",
+    name: "MENSUALIDAD PRIMARIA",
+    price: "100.00",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    name: "ULTIMATE PLAN",
-    price: "149K",
+    name: "MENSUALIDAD ELEMENTAL",
+    price: "75.00",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
 ]
