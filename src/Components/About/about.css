@@ -75,6 +75,45 @@
   font-weight: 500;
 }
 
+/****************Nosotros***************/
+.nosotros{
+  height: auto;
+  margin-top: 780px;
+}
+
+.nosotros #heading{
+  text-align: left;
+  padding: 0;
+}
+
+.nosotros .right img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nosotros .left{
+  padding: 80px 50px;
+}
+
+.nosotros .left h2{
+  color: #1eb2a6;
+  margin-bottom: 20px;
+  margin-top: -50px;
+  font-size: 50px;
+}
+
+.nosotros .left p{
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .nosotros{
+    margin-top: 30px;
+  }
+}
+
+
 @media screen and (max-width: 768px){
   .aboutHome{
     margin-top: -20%;
@@ -92,3 +131,5 @@
     height: 50vh;
   }
 }
+
+
