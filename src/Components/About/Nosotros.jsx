@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../Common/Heading/title/Title'
+
 
 const Nosotros = () => {
   return (
