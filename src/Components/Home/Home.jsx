@@ -4,7 +4,7 @@ import AboutCard from '../About/AboutCard'
 // import HAbout from './HAbout'
 import Testimonal from './testimonal/Testimonal'
 import Hblog from './Hblog'
-import Hprice from './Hprice'
+// import Hprice from './Hprice'
 import WspButton from '../WhatsappButton/WspButton'
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
       {/* <HAbout /> */}
       <Testimonal />
       <Hblog />
-      <Hprice />
+      {/* <Hprice /> */}
       <WspButton />
     </>
   )

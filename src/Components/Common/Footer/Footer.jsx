@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="container flexSB">
           <div className="left row">
             <h1>Subscribete para recibir noticias</h1>
-            <span>is simply dummy text of the printing and</span>
+            <span>¿Desseas recibir noticias y notificaciones sobre las actividades de la escuela?, Suscribete!!! </span>
           </div>
           <div className="right now">
             <input type="text" placeholder='Ingrese un email'/>
@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="box logo">
             <h1>KIDS SCIENTIFIC PARKING</h1>
             <span>Educación online y presencial</span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eveniet obcaecati expedita aperiam consequatur nobis aspernatur quam</p>
+            <p>Bienvenido a nuestra escuela, donde ofrecemos una educación integral y transformadora en un ambiente seguro y acogedor. Nuestros maestros altamente capacitados brindan una educación de calidad tanto en línea como presencialmente, centrada en valores morales y espirituales.</p>
           </div>
           <div className="box link">
             <h3>Explorar</h3>
@@ -36,32 +36,29 @@ const Footer = () => {
               <li>Nosotros</li>
               <li>Nosotros</li> */}
               <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/courses">Nuestra Metodología</Link>
-            </li>
-            <li>
-              <Link to="/about">Nosotros</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contacto</Link>
-            </li>
-            <li>
-              <Link to="/team">Equipo</Link>
-            </li>
-            <li>
-              <Link to="/payment">Pagos</Link>
-            </li>
-            <li>
-              <Link to="/blog">Actividades</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contactos</Link>
-            </li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/courses">Nuestra Metodología</Link>
+              </li>
+              <li>
+                <Link to="/about">Nosotros</Link>
+              </li>
+              <li>
+                <Link to="/team">Equipo</Link>
+              </li>
+              <li>
+                <Link to="/payment">Pagos</Link>
+              </li>
+              <li>
+                <Link to="/blog">Actividades</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contactos</Link>
+              </li>
             </ul>
           </div>
-          <div className="box link">
+          {/* <div className="box link">
             <h3>Quick Links</h3>
             <ul>
               <li>Nosotros</li>
@@ -70,7 +67,7 @@ const Footer = () => {
               <li>Nosotros</li>
               <li>Nosotros</li>
             </ul>
-          </div>
+          </div> */}
           <div className="box">
             <h3>Últimos Posts</h3>
             {blog.slice(0, 3).map((val) => {
@@ -80,10 +77,10 @@ const Footer = () => {
                     <img src={val.cover} alt="" />
                   </div>
                   <div className="text">
-                    <span>
+                    {/* <span>
                       <i className='fa fa-user'></i>
                       <label htmlFor=''>{val.type}</label>
-                    </span>
+                    </span> */}
                     <span>
                       <i className='fa fa-calendar-alt'></i>
                       <label htmlFor=''>{val.date}</label>
@@ -99,15 +96,16 @@ const Footer = () => {
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                Alborada 7ma etapa
+                Alborada 3era etapa
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +593 1234 567 890
+                0967417783
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                ksp@gmail.com
+                <a href="mailto:yurgiles.ksparking@mcon.edu.ec" className='mail'>yurgiles.ksparking@mcon.edu.ec</a>
+                {/* yurgiles.ksparking@mcon.edu.ec */}
               </li>
             </ul>
           </div>
