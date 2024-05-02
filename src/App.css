@@ -90,7 +90,8 @@ button:hover{
 }
 
 .primary-btn{
-  background-color: #1eb2a6;
+  /* background-color: #1eb2a6; */
+  background-color: #BA68C8;
   color: #fff;
   cursor: pointer;
 }

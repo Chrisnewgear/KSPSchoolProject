@@ -16,7 +16,7 @@
 /****************************HEADER*******************************/
 
 header{
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(186, 104, 200, 0.2);
   margin: 0 30px;
   position: relative;
 }
@@ -41,7 +41,8 @@ header ul li a:hover{
 }
 
 .start{
-  background-color: #1eb2a6;
+  /* background-color: #1eb2a6; */
+  background-color: #BA68C8;
   padding: 10px 20px;
   border-radius: 5px;
   color: #fff;

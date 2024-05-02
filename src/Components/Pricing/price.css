@@ -52,6 +52,7 @@
 }
 
 .faq .accordion:hover{
-  background-color: #1eb26a;
+  /* background-color: #1eb26a; */
+  background-color: #BA68C8;
   color: #fff;
 }

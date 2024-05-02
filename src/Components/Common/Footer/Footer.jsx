@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { blog } from '../../../dummydata'
+// import { blog } from '../../../dummydata'
 import { Link } from 'react-router-dom'
 
 // Footer component
@@ -68,7 +68,7 @@ const Footer = () => {
               <li>Nosotros</li>
             </ul>
           </div> */}
-          <div className="box">
+          {/* <div className="box">
             <h3>Últimos Posts</h3>
             {blog.slice(0, 3).map((val) => {
               return (
@@ -80,7 +80,7 @@ const Footer = () => {
                     {/* <span>
                       <i className='fa fa-user'></i>
                       <label htmlFor=''>{val.type}</label>
-                    </span> */}
+                    </span> 
                     <span>
                       <i className='fa fa-calendar-alt'></i>
                       <label htmlFor=''>{val.date}</label>
@@ -90,7 +90,7 @@ const Footer = () => {
                 </div>
               )
             })}
-          </div>
+          </div> */}
           <div className="box last">
             <h3>¿Tiene alguna pregunta?</h3>
             <ul>
