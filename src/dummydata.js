@@ -288,50 +288,74 @@ export const team = [
 ]
 export const price = [
   {
-    name: "MATRICULA",
+    name: "PRE-MATRICULA",
+    price: "200.00",
+    desc: "Congela con $100.00 hasta el 31 de diciembre del año en curso.",
+  },
+  {
+    name: "MATRICULA ORDINARIA",
     price: "240.00",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "A partir del 1 de enero al 15 de abril del año entrante.",
   },
   {
-    name: "MENSUALIDAD BACHILLERATO",
-    price: "100.00",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "MATRICULA EXTRAORDINARIA",
+    price: "260.00",
+    desc: "Al partir del 15 de abril en adelante.",
   },
   {
-    name: "MENSUALIDAD PRIMARIA",
-    price: "100.00",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
-  {
-    name: "MENSUALIDAD ELEMENTAL",
+    name: "KIDERGARTEN (3-4 YEARS OLD)",
     price: "75.00",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Un solo valor anual por anticipado $600.00. Si paga los primeros 5 días de cada mes $65.00",
+  },
+  {
+    name: "GRADE 1ST TO 6TH (5 TO 10 YEARS OLD)",
+    price: "100.00",
+    desc: "Un solo valor anual de $850.00. Si paga los primeros 5 dias de cada mes $90.00",
+  },
+  {
+    name: "GRADE 7TH TO 8TH (11 TO 14 YEARS OLD)",
+    price: "110.00",
+    desc: "Un solo valor anual por anticipado de $950.00. Si paga los primeros 5 dias de cada mes $100.00.",
+  },
+  {
+    name: "GRADE 10TH TO 12TH (15 TO 17 YEARS OLD)",
+    price: "120.00",
+    desc: "Un solo valor anual por anticipado de $950.00. Si paga los primeros 5 dias de cada mes $110.00.",
+  },
+  {
+    name: "PLATAFORMA ANUAL",
+    price: "65.00",
+    desc: "Incluye plataforma de inglés más libro electrónico. Plataforma de registro de tareas y cuadernos electrónicos. Mantenimiento de página web",
   },
 ]
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "¿Qué días son las clases?",
+    desc: "Nuestros días de clases son lunes, martes, miércoles.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "¿En qué horarios son las clases?",
+    desc: "En las mañanas de 9:00 am a 13:30 pm.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "¿Tienen modalidad online?",
+    desc: "La modalidad online solo aplica para básica superior y Bachillerato",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "¿Qué especilaidad tienen?",
+    desc: "Inglés B1, Diseño Gráfico, Estética.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "¿Reciben clases virtuales los jueves y viernes?",
+    desc: "No, los niños entran libremente y sin horarios para revisar las tareas que tengan para realizar hasta el viernes 20:00.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "¿Tienen servicio de expreso?",
+    desc: "Dependiendo la zona de la ciudad",
+  },
+  {
+    title: "¿Tienen servicio de tareas escolares?",
+    desc: "Sí, es un servicio extra los jueves de 9am a 1pm",
   },
 ]
 export const blog = [
