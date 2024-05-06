@@ -1,0 +1,17 @@
+.downloadButton{
+  border-radius: 10px;
+  background-color: #1eb26a;
+  color: #fff;
+  box-shadow: 10px 6px 9px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 6px 9px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 6px 9px -5px rgba(0,0,0,0.75);
+}
+
+.downloadButton:hover{
+  background-color: #BA68C8;
+  color: #fff;
+  transition: .5s;
+  box-shadow: 10px 6px 9px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 6px 9px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 6px 9px -5px rgba(0,0,0,0.75);
+}

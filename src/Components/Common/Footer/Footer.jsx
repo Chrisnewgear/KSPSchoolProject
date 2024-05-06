@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="box logo">
             <h1>KIDS SCIENTIFIC PARKING</h1>
             <span>Educación online y presencial</span>
-            <p>Bienvenido a nuestra escuela, donde ofrecemos una educación integral y transformadora en un ambiente seguro y acogedor. Nuestros maestros altamente capacitados brindan una educación de calidad tanto en línea como presencialmente, centrada en valores morales y espirituales.</p>
+            <p>Nuestro centro de tutorías, donde ofrecemos una educación integral y transformadora en un ambiente seguro y acogedor. Nuestros maestros altamente capacitados brindan una educación de calidad tanto en línea como presencialmente, centrada en valores morales y espirituales.</p>
           </div>
           <div className="box link">
             <h3>Explorar</h3>

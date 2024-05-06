@@ -3,9 +3,14 @@ import Back from '../Common/Back/Back'
 import PriceCard from './PriceCard'
 import Faq from './Faq'
 import WspButton from '../WhatsappButton/WspButton'
+import DownloadPDFButton from '../Common/Buttons/DownloadButton'
 import './price.css'
 
+
 const Price = () => {
+
+  const pdfURL = './Pdfs/Precios.pdf';
+
   return (
   <>
     <Back title='Formas de pago'/>
@@ -20,6 +25,9 @@ const Price = () => {
       <div className='promos'>
         <h2>RECARGOS</h2>
         <p className='paraghraph'>Todas las mensualidades suben el <span>10%</span> a partir del mes adeudado y no tendrán acceso a la plataforma. <span>A partir del cuarto mes adeudado pierde la matrícula para el siguiente año lectivo.</span></p>
+      </div>
+      <div className='downloadButtonContainer '>
+        <DownloadPDFButton url={pdfURL} />
       </div>
     </section>
     <Faq />
