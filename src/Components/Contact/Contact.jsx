@@ -15,7 +15,7 @@ const Contact = () => {
           </div>
           <div className="right row">
             <h1>Contáctanos</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt suscipit, voluptas eveniet tempore atque eius ipsum ad natus, repellendus necessitatibus? Dolores mollitia molestiae perferendis laboriosam consectetur, consequuntur sequi exercitationem!</p>
+            <p>¿Tienes preguntas sobre nuestros programas educativos o necesitas más información sobre nuestras actividades escolares? ¡Estamos aquí para ayudarte! Completa el formulario de contacto a continuación y nos pondremos en contacto con usted a la brevedad posible.</p>
             <div className="items grid2">
               <div className="box">
                 <h4>Direccion:</h4>
