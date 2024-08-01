@@ -15,6 +15,7 @@ body{
 .head{
   padding: 20px 0;
   color: #000;
+  z-index: 3;
 }
 
 .logo h1{
@@ -29,6 +30,7 @@ body{
 .container {
   max-width: 85%;
   margin: auto;
+  z-index: 1;
 }
 
 .flexSB{
@@ -75,9 +77,10 @@ button {
   border-radius: 3px;
   box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
   cursor: pointer;
+  z-index: 5;
 }
 
-.button {
+.button:hover {
   cursor: pointer;
 }
 
@@ -87,14 +90,16 @@ button i{
 
 button:hover{
   box-shadow: none;
+  cursor: pointer;
 }
 
 .primary-btn{
   /* background-color: #1eb2a6; */
   background-color: #BA68C8;
   color: #fff;
-  cursor: pointer;
+  z-index: 10;
 }
+
 
 #heading{
   text-align: center;
