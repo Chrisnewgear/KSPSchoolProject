@@ -1,10 +1,41 @@
-import React from 'react'
-import Back from '../Common/Back/Back'
-import './contact.css'
-import WspButton from '../WhatsappButton/WspButton'
+import React, { useRef, useState } from 'react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
+import Back from '../Common/Back/Back';
+import './contact.css';
+import WspButton from '../WhatsappButton/WspButton';
 
 const Contact = () => {
+  const form = useRef();
+  const [buttonText, setButtonText] = useState('ENVIAR');
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setButtonText('ENVIANDO...');
+
+    emailjs.sendForm('service_5yu7el5', 'template_xgxgphf', form.current, 'ke_ZMz2wvG2nkoc6A')
+      .then((result) => {
+          console.log(result.text);
+          Swal.fire({
+            icon: 'success',
+            title: 'Mensaje enviado con éxito',
+            text: 'Nos pondremos en contacto con usted a la brevedad posible.',
+          });
+          form.current.reset();
+          setButtonText('ENVIAR');
+      }, (error) => {
+          console.log(error.text);
+          Swal.fire({
+            icon: 'error',
+            title: 'Hubo un error al enviar el mensaje',
+            text: 'Por favor, inténtelo de nuevo más tarde.',
+          });
+          setButtonText('ENVIAR');
+      });
+  };
+
   const map ='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249.18928242847153!2d-79.89888916150979!3d-2.1427575308845417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1714111405516!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
+
   return (
     <>
       <Back title='Contactos'/>
@@ -30,23 +61,21 @@ const Contact = () => {
                 <p>+593 1234 567 890</p>
               </div>
             </div>
-            <form action="">
+            <form ref={form} onSubmit={sendEmail}>
               <div className="flexSB">
-                <input type="text" placeholder='Nombre' />
-                <input type="email" placeholder='Email' />
+                <input type="text" name="user_name" placeholder='Nombre' required />
+                <input type="email" name="user_email" placeholder='Email' required />
               </div>
-              <input type="email" placeholder='Asunto'/>
-              <textarea name="" id="" cols="30" rows="10">
-                Escriba aqui su mensaje
-              </textarea>
-              <button className="primary-btn">ENVIAR</button>
+              <input type="text" name="subject" placeholder='Asunto' required />
+              <textarea name="message" cols="30" rows="10" placeholder='Escriba aqui su mensaje' required></textarea>
+              <button type="submit" className="primary-btn">{buttonText}</button>
             </form>
           </div>
         </div>
       </section>
       <WspButton />
     </>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
