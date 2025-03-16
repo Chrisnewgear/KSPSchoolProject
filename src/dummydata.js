@@ -366,7 +366,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-4.jpeg",
+    cover: "../images/Actividades/2022/img-2.jpeg",
   },
   {
     id: 2,
@@ -375,7 +375,7 @@ export const blog = [
     com: "5 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-5.jpeg",
+    cover: "../images/Actividades/2022/img-4.jpeg",
   },
   {
     id: 3,
@@ -384,7 +384,7 @@ export const blog = [
     com: "10 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-6.jpeg",
+    cover: "../images/Actividades/2022/img-5.jpeg",
   },
   {
     id: 4,
@@ -393,7 +393,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-1.jpeg",
+    cover: "../images/Actividades/2022/img-7.jpeg",
   },
   {
     id: 5,
@@ -402,7 +402,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-2.jpeg",
+    cover: "../images/Actividades/2022/img-8.jpeg",
   },
   {
     id: 6,
@@ -411,7 +411,7 @@ export const blog = [
     com: "12 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-3.jpeg",
+    cover: "../images/Actividades/2022/img-9.jpeg",
   },
 ]
 export const testimonal = [
@@ -446,7 +446,7 @@ export const blog2 = [
     com: "3 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-7.jpeg",
+    cover: "../images/Actividades/2022/img-16.jpeg",
   },
   {
     id: 2,
@@ -455,7 +455,7 @@ export const blog2 = [
     com: "5 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-8.jpeg",
+    cover: "../images/Actividades/2022/img-10.jpeg",
   },
   {
     id: 3,
@@ -464,7 +464,7 @@ export const blog2 = [
     com: "10 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-9.jpeg",
+    cover: "../images/Actividades/2022/img-11.jpeg",
   },
   {
     id: 4,
@@ -473,7 +473,7 @@ export const blog2 = [
     com: "3 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-10.jpeg",
+    cover: "../images/Actividades/2022/img-13.jpeg",
   },
   {
     id: 5,
@@ -482,7 +482,7 @@ export const blog2 = [
     com: "3 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-11.jpeg",
+    cover: "../images/Actividades/2022/img-14.jpeg",
   },
   {
     id: 6,
@@ -491,6 +491,6 @@ export const blog2 = [
     com: "12 COMMENTS ",
     title: "",
     desc: "",
-    cover: "../images/Actividades/2022/img-12.jpeg",
+    cover: "../images/Actividades/2022/img-15.jpeg",
   },
 ]
