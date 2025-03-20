@@ -494,3 +494,24 @@ export const blog2 = [
     cover: "../images/Actividades/2022/img-15.jpeg",
   },
 ]
+
+export const videos = [
+  {
+    id: 1,
+    type: "admin",
+    date: "JUL. 27, 2022",
+    com: "3 COMMENTS ",
+    title: "",
+    desc: "",
+    cover: "../videos/video1.mp4",
+  },
+  {
+    id: 2,
+    type: "admin",
+    date: "API. 25, 2022",
+    com: "5 COMMENTS ",
+    title: "",
+    desc: "",
+    cover: "../videos/video2.mp4",
+  }
+]

@@ -1,5 +1,6 @@
 import React from 'react'
-import Back from '../Common/Back/Back'
+// import Back from '../Common/Back/Back'
+import BackPagos from '../Common/Back/BackPagos'
 import PriceCard from './PriceCard'
 import Faq from './Faq'
 import WspButton from '../WhatsappButton/WspButton'
@@ -13,7 +14,7 @@ const Price = () => {
 
   return (
   <>
-    <Back title='Formas de pago'/>
+    <BackPagos title='Formas de pago'/>
     <section className="price padding">
       <div className="container grid">
         <PriceCard />

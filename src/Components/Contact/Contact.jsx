@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
-import Back from '../Common/Back/Back';
+// import Back from '../Common/Back/Back';
+import BackContactos from '../Common/Back/BackContactos';
 import './contact.css';
 import WspButton from '../WhatsappButton/WspButton';
 
@@ -38,7 +39,7 @@ const Contact = () => {
 
   return (
     <>
-      <Back title='Contactos'/>
+      <BackContactos title='Contactos'/>
       <section className="contact padding">
         <div className="container shadow flexSB">
           <div className="left row">
