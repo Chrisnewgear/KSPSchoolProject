@@ -1,5 +1,4 @@
 import React from 'react'
-// import Back from '../Common/Back/Back'
 import BackPagos from '../Common/Back/BackPagos'
 import PriceCard from './PriceCard'
 import Faq from './Faq'

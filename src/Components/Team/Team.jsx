@@ -1,5 +1,4 @@
 import React from 'react'
-import Back from '../Common/Back/Back'
 import BackDocentes from '../Common/Back/BackDocentes'
 import TeamCard from './TeamCard'
 import WspButton from '../WhatsappButton/WspButton'
