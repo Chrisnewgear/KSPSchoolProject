@@ -12,7 +12,7 @@ const Nosotros = () => {
             <p>Nuestras matículas son muy limitadas con el propósito de brindar una educación cien por ciento personalizada. Nuestros queridos maestros de arte, música, nuestra maestra nativa de inglés elevan sus clases al juego y la diversión, como consecuencia los niños mantienen una relación afectiva con quienes les educan y comparten los mismos principios y objetivos de vida.</p>
           </div>
           <div className="right row">
-            <img src="/images/nosotros.jpg" alt="" />
+            <img src="/images/OptimizedPhotos/nosotros.jpg" alt="" />
           </div>
         </div>
       </section>

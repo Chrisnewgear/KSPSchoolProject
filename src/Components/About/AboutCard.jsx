@@ -10,7 +10,7 @@ const AboutCard = () => {
       <section className='aboutHome'>
         <div className="container flexSB">
           <div className="left row">
-            <img src="/images/about2.jpg" alt="" />
+            <img src="/images/OptimizedPhotos/about2.jpg" alt="" />
           </div>
           <div className='right row'>
             <Title subtitle='APRENDE MEJOR' title='Ventajas de estudiar con nosotros'/>

@@ -35,7 +35,7 @@ const Price = () => {
             </div>
           </div>
           <div className="right row">
-            <img src="/images/pricesimg.jpg" alt="" />
+            <img src="/images/OptimizedPhotos/pricesimg.jpg" alt="" />
           </div>
         </div>
       </section>

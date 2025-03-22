@@ -7,7 +7,7 @@ const Metdologia = () => {
       <section className='metodologia'>
         <div className="container flexSB">
           <div className="left row">
-            <img src="/images/metodologia.jpg" alt="" />
+            <img src="/images/OptimizedPhotos/metodologia.jpg" alt="" />
           </div>
           <div className="right row">
             <h2>Metodologia de trabajo</h2>

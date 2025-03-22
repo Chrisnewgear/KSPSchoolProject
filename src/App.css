@@ -125,7 +125,7 @@ p{
 }
 
 .back{
-  background-image: url("../public/images/back1.jpg");
+  background-image: url("../public/images/OptimizedPhotos/back1.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -152,7 +152,7 @@ p{
 }
 
 .backDocentes{
-  background-image: url("../public/images/bg9.jpg");
+  background-image: url("../public/images/OptimizedPhotos/bg9.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -179,7 +179,7 @@ p{
 }
 
 .backPagos{
-  background-image: url("../public/images/back12.jpg");
+  background-image: url("../public/images/OptimizedPhotos/back12.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -206,7 +206,7 @@ p{
 }
 
 .backContactos{
-  background-image: url("../public/images/back5.jpg");
+  background-image: url("../public/images/OptimizedPhotos/back5.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -233,7 +233,7 @@ p{
 }
 
 .backActividades{
-  background-image: url("../public/images/back6.jpg");
+  background-image: url("../public/images/OptimizedPhotos/back6.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -260,7 +260,7 @@ p{
 }
 
 .backMetodologia{
-  background-image: url("../public/images/back7.jpg");
+  background-image: url("../public/images/OptimizedPhotos/back7.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;

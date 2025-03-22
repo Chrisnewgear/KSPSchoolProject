@@ -111,6 +111,9 @@
   margin-bottom: 50px;
 } */
 
+
+
+
 .blog-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -195,43 +198,37 @@
   gap: 20px;
 }
 .video-card {
-  position: relative;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden; /* Mantener el diseño limpio */
+  overflow: hidden;
   transition: transform 0.2s;
+  margin-bottom: 20px;
+  /* Set fixed dimensions for landscape orientation */
+  width: 100%;
+  height: auto;
 }
 
 .video-card:hover {
   transform: scale(1.05);
 }
 
-.video-card .video {
+.video {
   width: 100%;
-  height: 0;
-  padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+  /* Set a fixed aspect ratio container */
   position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (height/width) */
+  overflow: hidden;
 }
 
-.video-card .video video {
+.video video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  pointer-events: auto; /* Asegurar que el usuario pueda interactuar */
-}
-
-.video-card .text {
-  padding: 20px;
-  position: relative;
-  z-index: 2;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-.video-card h1:hover {
-  color: #1eb2a6;
-  cursor: pointer;
+  object-fit: contain; /* This will preserve aspect ratio */
+  background: #000; /* Black background for letterboxing */
+  border-radius: 8px 8px 0 0;
+  outline: none;
 }
