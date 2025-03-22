@@ -121,7 +121,7 @@ import React from 'react';
 import BlogCard from '../Blog/BlogCard';
 import BlogCard2 from '../Blog/BlogCard2';
 import VideoCard from '../Blog/VideoCard';
-import Back from '../Common/Back/Back';
+import BackActividades from '../Common/Back/BackActividades';
 import Title from '../Common/Heading/title/Title';
 import './blog.css';
 import '../WhatsappButton/wspstyles.css';
@@ -131,7 +131,7 @@ import { blog, blog2, videos } from '../../dummydata';
 const Blog = () => {
   return (
     <>
-      <Back title='Actividades'/>
+      <BackActividades title='Actividades'/>
       <section className='blog padding'>
         <Title subtitle="Actividades 2022" title="Clases que Envuelven"/>
         <div className="blog-container">
