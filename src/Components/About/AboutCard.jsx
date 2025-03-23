@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../Common/Heading/title/Title'
 import { homeAbout } from "../../dummydata"
-import AWrapper from './AWrapper'
+// import AWrapper from './AWrapper'
 import './about.css'
 
 const AboutCard = () => {
