@@ -4,9 +4,10 @@ import Hero from './hero/Hero'
 import AboutCard from '../About/AboutCard'
 // import HAbout from './HAbout'
 import Testimonal from './testimonal/Testimonal'
-import Hblog from './Hblog'
+import HBlog from './Hblog'
 // import Hprice from './Hprice'
 import WspButton from '../WhatsappButton/WspButton'
+import { blog } from '../../dummydata';
 
 const Home = () => {
   return (
@@ -16,7 +17,9 @@ const Home = () => {
       <AboutCard />
       {/* <HAbout /> */}
       <Testimonal />
-      <Hblog />
+      {/* <Hblog /> */}
+
+      <HBlog blogs={blog} />
       {/* <Hprice /> */}
       <WspButton />
     </>

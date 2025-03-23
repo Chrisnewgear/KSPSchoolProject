@@ -420,21 +420,22 @@ export const testimonal = [
     name: "ROGER SCOTT",
     post: "Padre de familia",
     desc: "Estamos muy contentos con la educación que nuestros hijos reciben en esta escuela. Los maestros son increíblemente dedicados y se nota que realmente se preocupan por el desarrollo académico y personal de cada estudiante. Además, nos encanta que se enfoquen en enseñar valores importantes, lo cual es fundamental para el crecimiento integral de nuestros hijos. Sin duda, es la mejor decisión que hemos tomado para su futuro.",
-    cover: "./images/testo/t1.webp",
+    // cover: "./images/testo/t1.webp",
+    cover: "./images/Icons/man.png",
   },
   {
     id: 2,
     name: "ROGER SCOTT",
     post: "Estudiante",
     desc: "Desde que nuestros hijos empezaron a asistir a esta escuela, hemos notado una gran mejora en su rendimiento académico y en su actitud hacia el aprendizaje. La dedicación de los maestros y el enfoque en la enseñanza de valores han sido claves en su desarrollo. Estamos muy agradecidos por el ambiente positivo y el apoyo que reciben cada día.",
-    cover: "./images/testo/t2.webp",
+    cover: "./images/Icons/boy.png",
   },
   {
     id: 3,
     name: "ROGER SCOTT",
     post: "Padre de familia",
     desc: "Me encanta estudiar en esta escuela. Mis maestros son muy amables y siempre están dispuestos a ayudarme cuando tengo preguntas. Además de aprender muchas cosas interesantes, también nos enseñan valores importantes como el respeto y la responsabilidad. Estoy muy feliz aquí y siento que cada día aprendo algo nuevo y valioso.",
-    cover: "./images/testo/t3.webp",
+    cover: "./images/Icons/man.png",
   },
 ]
 
