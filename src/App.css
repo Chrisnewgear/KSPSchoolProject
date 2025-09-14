@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: "Roboto" , sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   background-color: #f8f8f8;
 }
 
 
-.head{
+.head {
   padding: 20px 0;
   color: #000;
   z-index: 3;
 }
 
-.logo h1{
+.logo h1 {
   font-size: 35px;
   font-weight: 900;
 }
 
-.head .icon{
+.head .icon {
   margin-left: 10px;
 }
 
@@ -33,37 +33,37 @@ body{
   z-index: 1;
 }
 
-.flexSB{
+.flexSB {
   display: flex;
   justify-content: space-between;
 }
 
-.icon{
+.icon {
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.3);
-  color:#1eb2a6;
+  color: #1eb2a6;
   transition: 0.5s;
 }
 
-.icon:hover{
+.icon:hover {
   cursor: pointer;
   background-color: #1eb2a6;
   color: #fff;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-.row{
+.row {
   width: 50%;
 }
 
@@ -84,16 +84,16 @@ button {
   cursor: pointer;
 }
 
-button i{
+button i {
   margin-left: 20px;
 }
 
-button:hover{
+button:hover {
   box-shadow: none;
   cursor: pointer;
 }
 
-.primary-btn{
+.primary-btn {
   /* background-color: #1eb2a6; */
   background-color: #BA68C8;
   color: #fff;
@@ -101,30 +101,30 @@ button:hover{
 }
 
 
-#heading{
+#heading {
   text-align: center;
   padding: 40px 0;
 }
 
-#heading  h3{
+#heading h3 {
   font-weight: 600;
   letter-spacing: 1px;
   color: #1eb2a6;
   text-transform: uppercase;
 }
 
-#heading  h1{
+#heading h1 {
   font-size: 45px;
   font-weight: 900;
   text-transform: capitalize;
 }
 
-p{
+p {
   line-height: 30px;
   font-size: 18px;
 }
 
-.back{
+.back {
   background-image: url("../public/images/OptimizedPhotos/back1.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -141,18 +141,18 @@ p{
   text-align: center;
 }
 
-.back{
+.back {
   font-size: 100px;
   font-weight: 400;
 }
 
-.back h2{
+.back h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
 }
 
-.backDocentes{
+.backDocentes {
   background-image: url("../public/images/OptimizedPhotos/bg9.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -169,18 +169,18 @@ p{
   text-align: center;
 }
 
-.backDocentes{
+.backDocentes {
   font-size: 100px;
   font-weight: 400;
 }
 
-.backDocentes h2{
+.backDocentes h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
 }
 
-.backPagos{
+.backPagos {
   background-image: url("../public/images/OptimizedPhotos/back12.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -197,18 +197,18 @@ p{
   text-align: center;
 }
 
-.backPagos{
+.backPagos {
   font-size: 100px;
   font-weight: 400;
 }
 
-.backPagos h2{
+.backPagos h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
 }
 
-.backContactos{
+.backContactos {
   background-image: url("../public/images/OptimizedPhotos/back5.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -225,18 +225,18 @@ p{
   text-align: center;
 }
 
-.backContactos{
+.backContactos {
   font-size: 100px;
   font-weight: 400;
 }
 
-.backContactos h2{
+.backContactos h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
 }
 
-.backActividades{
+.backActividades {
   background-image: url("../public/images/OptimizedPhotos/back6.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -253,18 +253,18 @@ p{
   text-align: center;
 }
 
-.backActividades{
+.backActividades {
   font-size: 100px;
   font-weight: 400;
 }
 
-.backActividades h2{
+.backActividades h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
 }
 
-.backMetodologia{
+.backMetodologia {
   background-image: url("../public/images/OptimizedPhotos/back7.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -281,38 +281,38 @@ p{
   text-align: center;
 }
 
-.backMetodologia{
+.backMetodologia {
   font-size: 100px;
   font-weight: 400;
 }
 
-.backMetodologia h2{
+.backMetodologia h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
 }
 
-.margin{
+.margin {
   margin-top: 40.3%;
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.grid2{
+.grid2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
 
-.outline-btn{
+.outline-btn {
   margin: 0;
   box-shadow: none;
   border: 2px solid #1eb2a6;
@@ -320,12 +320,12 @@ p{
   transition: 0.5s;
 }
 
-.outline-btn:hover{
+.outline-btn:hover {
   background-color: #1eb2a6;
   color: #fff;
 }
 
-.grid3{
+.grid3 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
@@ -335,25 +335,164 @@ p{
   padding: 80px 0;
 }
 
-.shadow{
+.shadow {
   box-shadow: 0 6px 25px -2 rgba(0 0 0 /6%);
   background-color: #fff;
 }
 
+/* Mobile First Responsive Design */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 95%;
+  }
+
+  .logo h1 {
+    font-size: 28px;
+  }
+
+  #heading h1 {
+    font-size: 36px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .grid2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .flexSB {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+
   .grid,
   .grid2,
-  .grid3{
-    grid-template-columns: repeat(2, 1fr);
+  .grid3 {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
   }
 
-  .back{
+  .back,
+  .backDocentes,
+  .backPagos,
+  .backContactos,
+  .backActividades,
+  .backMetodologia {
     background-position: center;
-    padding-top: 50%;
-    height: 80vh;
+    background-attachment: scroll;
+    padding-top: 40%;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 70vh;
+    font-size: 60px;
   }
 
-  .margin{
-    margin-top: 30%;
+  .back h2,
+  .backDocentes h2,
+  .backPagos h2,
+  .backContactos h2,
+  .backActividades h2,
+  .backMetodologia h2 {
+    font-size: 14px;
+  }
+
+  .margin {
+    margin-top: 25%;
+  }
+
+  .logo h1 {
+    font-size: 24px;
+  }
+
+  #heading h1 {
+    font-size: 28px;
+  }
+
+  #heading h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  button {
+    padding: 12px 20px;
+    font-size: 14px;
+    margin: 20px 5px 0 0;
+  }
+
+  .padding {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 98%;
+    padding: 0 10px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  #heading h1 {
+    font-size: 24px;
+  }
+
+  .back,
+  .backDocentes,
+  .backPagos,
+  .backContactos,
+  .backActividades,
+  .backMetodologia {
+    font-size: 40px;
+    padding-top: 35%;
+    height: 60vh;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 12px;
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .padding {
+    padding: 40px 0;
+  }
+
+  .icon {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
   }
 }

@@ -175,8 +175,182 @@
   margin-bottom: 20px;
 }
 
+/* Enhanced Mobile Responsiveness for Courses Component */
+
+/* Large tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .courseCard .items {
+    padding: 25px;
+  }
+  
+  .metodologia .right {
+    padding: 60px 30px;
+  }
+  
+  .metodologia .right h2 {
+    font-size: 42px;
+  }
+  
+  .online .img {
+    margin: 60px auto;
+  }
+}
+
+/* Tablets */
 @media screen and (max-width: 768px) {
-  .metodologia{
+  .metodologia {
     margin-top: 30px;
+  }
+  
+  .courseCard {
+    padding: 30px 0;
+  }
+  
+  .courseCard .items {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .courseCard .img {
+    width: 70px;
+    height: 70px;
+    padding: 12px;
+  }
+  
+  .courseCard .text h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  .courseCard .details .dimg img {
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+  }
+  
+  .courseCard .details .para {
+    margin-left: 50px;
+  }
+  
+  .courseCard .price {
+    margin: 20px 0;
+    padding: 8px;
+  }
+  
+  .online .box {
+    padding: 25px 15px;
+    margin-bottom: 20px;
+  }
+  
+  .online .img {
+    width: 70px;
+    margin: 40px auto;
+  }
+  
+  .online h1 {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 15px 0;
+  }
+  
+  .online span {
+    padding: 4px 15px;
+    font-size: 13px;
+  }
+  
+  .metodologia .right {
+    padding: 40px 20px;
+  }
+  
+  .metodologia .right h2 {
+    font-size: 36px;
+    margin-top: -30px;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .courseCard {
+    padding: 20px 0;
+  }
+  
+  .courseCard .items {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .courseCard .img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+  
+  .courseCard .text h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .courseCard .details .dimg img {
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+  }
+  
+  .courseCard .details .para {
+    margin-left: 45px;
+  }
+  
+  .courseCard .details .box {
+    font-size: 14px;
+  }
+  
+  .courseCard .details span {
+    font-size: 12px;
+  }
+  
+  .courseCard .price {
+    margin: 15px 0;
+    padding: 6px;
+  }
+  
+  .courseCard h3 {
+    font-size: 16px;
+  }
+  
+  .online .box {
+    padding: 20px 12px;
+    margin-bottom: 15px;
+  }
+  
+  .online .img {
+    width: 60px;
+    margin: 30px auto;
+  }
+  
+  .online h1 {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 12px 0;
+  }
+  
+  .online span {
+    padding: 3px 12px;
+    font-size: 12px;
+  }
+  
+  .metodologia .right {
+    padding: 30px 15px;
+  }
+  
+  .metodologia .right h2 {
+    font-size: 28px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+  
+  .metodologia .right p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 22px;
   }
 }

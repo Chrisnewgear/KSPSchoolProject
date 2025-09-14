@@ -54,3 +54,90 @@
   font-size: 14px;
   color: gray;
 }
+
+/* Enhanced Mobile Responsiveness for HBlog Component */
+
+/* Large tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .hblog-container {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 18px;
+  }
+  
+  .hblog {
+    padding: 35px 18px;
+  }
+  
+  .hblog-img {
+    height: 180px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .hblog-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .hblog {
+    padding: 30px 15px;
+  }
+  
+  .hblog-img {
+    height: 160px;
+  }
+  
+  .hblog-text {
+    padding: 15px;
+  }
+  
+  .hblog-text h1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .hblog-text span {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  
+  .hblog-text p {
+    font-size: 13px;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .hblog-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .hblog {
+    padding: 25px 12px;
+  }
+  
+  .hblog-img {
+    height: 140px;
+  }
+  
+  .hblog-text {
+    padding: 12px;
+  }
+  
+  .hblog-text h1 {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  
+  .hblog-text span {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  
+  .hblog-text p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

@@ -120,3 +120,167 @@
 
 /****************Nosotros***************/
 
+/* Enhanced Mobile Responsiveness for Pricing Component */
+
+/* Large tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .price .items {
+    padding: 35px;
+  }
+  
+  .price h1 {
+    font-size: 42px;
+    margin: 18px 0;
+  }
+  
+  .precios .left {
+    padding: 60px 30px;
+  }
+  
+  .precios .left h2 {
+    font-size: 42px;
+  }
+  
+  .faq .container {
+    max-width: 80%;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .price .items {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .price h1 {
+    font-size: 36px;
+    margin: 15px 0;
+  }
+  
+  .price h1 span {
+    font-size: 18px;
+  }
+  
+  .price p {
+    margin: 30px 0;
+    font-size: 16px;
+  }
+  
+  .precios .left {
+    padding: 40px 20px;
+  }
+  
+  .precios .left h2 {
+    font-size: 36px;
+    margin-top: -30px;
+  }
+  
+  .price .precios .container .left .promos h2 {
+    font-size: 24px;
+  }
+  
+  .price .precios .container .left .promos .paraghraph {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  .faq .container {
+    max-width: 90%;
+  }
+  
+  .faq button {
+    padding: 12px 15px;
+  }
+  
+  .faq h2 {
+    font-size: 16px;
+  }
+  
+  .faq p {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .price .items {
+    padding: 25px 15px;
+    margin-bottom: 15px;
+  }
+  
+  .price h1 {
+    font-size: 28px;
+    margin: 12px 0;
+  }
+  
+  .price h1 span {
+    font-size: 16px;
+    margin-right: 3px;
+  }
+  
+  .price p {
+    margin: 25px 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .precios .left {
+    padding: 30px 15px;
+  }
+  
+  .precios .left h2 {
+    font-size: 28px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+  
+  .precios .left p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .price .precios .container .left .promos {
+    margin-top: 30px;
+  }
+  
+  .price .precios .container .left .promos h2 {
+    font-size: 20px;
+  }
+  
+  .price .precios .container .left .promos .paraghraph {
+    font-size: 14px;
+    margin-top: 6px;
+    line-height: 20px;
+  }
+  
+  .price .precios .container .left .downloadButtonContainer {
+    margin-top: 15px;
+  }
+  
+  .faq .container {
+    max-width: 95%;
+  }
+  
+  .faq .box {
+    margin-bottom: 15px;
+  }
+  
+  .faq button {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+  .faq h2 {
+    font-size: 14px;
+  }
+  
+  .faq p {
+    padding: 12px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+

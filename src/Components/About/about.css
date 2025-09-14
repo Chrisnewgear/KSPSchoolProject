@@ -108,28 +108,170 @@
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
-  .nosotros{
-    margin-top: 30px;
+/* Enhanced Mobile Responsiveness for About Component */
+
+/* Tablet and small desktop */
+@media screen and (max-width: 1024px) {
+  .aboutHome .right {
+    padding: 60px 30px;
+  }
+  
+  .awrapper .box {
+    padding: 50px;
+  }
+  
+  .awrapper h1 {
+    font-size: 42px;
+  }
+  
+  .nosotros .left {
+    padding: 60px 30px;
+  }
+  
+  .nosotros .left h2 {
+    font-size: 42px;
   }
 }
 
-
-@media screen and (max-width: 768px){
-  .aboutHome{
-    margin-top: -20%;
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .nosotros {
+    margin-top: 30px;
+  }
+  
+  .aboutHome {
+    margin-top: 24px; /* prevent overlap under hero */
   }
 
-  .aboutHome .container{
+  .aboutHome .container {
     flex-direction: column-reverse;
   }
 
-  .aboutHome .row{
+  .aboutHome .row {
     width: 100%;
   }
+  
+  .aboutHome .right {
+    padding: 40px 20px;
+  }
+  
+  .aboutHome .items {
+    margin-top: 30px;
+  }
+  
+  .aboutHome .item {
+    margin-top: 20px;
+    padding: 15px;
+  }
+  
+  .aboutHome .item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .aboutHome img {
+    width: 60px;
+    height: 60px;
+  }
 
-  .awrapper{
-    height: 50vh;
+  .awrapper {
+    height: 40vh;
+  }
+  
+  .awrapper .box {
+    padding: 30px 20px;
+  }
+  
+  .awrapper h1 {
+    font-size: 36px;
+  }
+  
+  .awrapper h3 {
+    font-size: 16px;
+  }
+  
+  .awrapper img {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .nosotros .left {
+    padding: 40px 20px;
+  }
+  
+  .nosotros .left h2 {
+    font-size: 36px;
+    margin-top: -30px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .aboutHome {
+    margin-top: 20px; /* prevent overlap under hero */
+  }
+  
+  .aboutHome .right {
+    padding: 30px 15px;
+  }
+  
+  .aboutHome .item {
+    padding: 12px;
+    margin-top: 15px;
+  }
+  
+  .aboutHome .item h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .aboutHome img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .aboutHome .img {
+    width: 150px;
+  }
+  
+  .awrapper {
+    height: 35vh;
+  }
+  
+  .awrapper .box {
+    padding: 20px 15px;
+  }
+  
+  .awrapper h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .awrapper h3 {
+    font-size: 14px;
+  }
+  
+  .awrapper img {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nosotros .left {
+    padding: 30px 15px;
+  }
+  
+  .nosotros .left h2 {
+    font-size: 28px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+  
+  .nosotros .left p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 22px;
   }
 }
 

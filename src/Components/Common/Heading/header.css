@@ -1,119 +1,17 @@
-/* .head{
+/* Cleaned legacy commented styles */
+
+.head {
   padding: 20px 0;
   color: #fff;
   z-index: 3;
 }
 
-.logo h1{
+.logo h1 {
   font-size: 35px;
   font-weight: 900;
 }
 
-.head .icon{
-  margin-left: 10px;
-}
- */
-
-/****************************HEADER*******************************/
-
-/* header{
-  background-color: rgba(186, 104, 200, 0.2);
-  margin: 0 30px;
-  position: relative;
-  z-index: 2;
-}
-
-header ul{
-  padding: 30px 20px;
-}
-
-header li{
-  margin-right: 40px;
-}
-
-header ul li a{
-  color: #fff;
-  font-weight: 500;
-  transition: 0.5s;
-}
-
-header ul li a:hover{
-  color: #1eb2a6;
-  cursor: pointer;
-}
-
-.start{
-  /* background-color: #1eb2a6; */
-  /* background-color: #BA68C8;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: #fff;
-  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
-  font-weight: 500;
-}
-
-.start .button{
-  margin-top: 20px;
-}
-
-.toggle{
-  display: none;
-}
-
-.logo span{
-  margin-top: 100px;
-}
-@media screen and (max-width: 768px) {
-  .start{
-    clip-path: none;
-  }
-
-  header{
-    margin: 0;
-    background-color: #1eb2a6;
-    position: relative;
-  }
-
-  header ul li {
-    margin-bottom: 20px;
-  }
-
-  header ul.flexSB{
-    display: none;
-  }
-
-  .toggle{
-    display: block;
-    background: none;
-    color: #fff;
-    font-style: 30px;
-    position: absolute;
-    right: -25px;
-    top: -33px;
-  }
-
-  .mobile-nav{
-    position: absolute;
-    top: 4vh;
-    left: 0;
-    width: 100%;
-    background-color: #1eb2a6;
-  }
-}
- */
- 
- .head{
-  padding: 20px 0;
-  color: #fff;
-  z-index: 3;
-}
-
-.logo h1{
-  font-size: 35px;
-  font-weight: 900;
-}
-
-.head .icon{
+.head .icon {
   margin-left: 10px;
 }
 
@@ -122,28 +20,28 @@ header ul li a:hover{
 
 header{
   background-color: rgba(186, 104, 200, 0.2);
-  margin: 0 30px;
+  margin: 0; /* remove side gaps on desktop */
   position: relative;
   z-index: 2;
 }
 
-header ul{
+header ul {
   padding: 30px 20px;
 }
 
-header li{
+header li {
   margin-right: 40px;
   position: relative;
 }
 
-header ul li a{
+header ul li a {
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   transition: 0.5s;
 }
 
-header ul li a:hover{
+header ul li a:hover {
   color: #1eb2a6;
   cursor: pointer;
 }
@@ -165,7 +63,7 @@ header ul li a.active::after {
   border-radius: 2px;
 }
 
-.start{
+.start {
   /* background-color: #1eb2a6; */
   background-color: #BA68C8;
   padding: 10px 20px;
@@ -175,34 +73,89 @@ header ul li a.active::after {
   font-weight: 500;
 }
 
-.start .button{
+.start .button {
   margin-top: 20px;
 }
 
-.toggle{
+.toggle {
   display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  padding: 8px;
+  border-radius: 4px;
 }
 
-.logo span{
+.toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo span {
   margin-top: 100px;
 }
 
-@media screen and (max-width: 768px) {
-  .start{
-    clip-path: none;
+/* Enhanced Mobile Responsiveness for Header Component */
+
+/* Large tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .logo h1 {
+    font-size: 30px;
   }
 
-  header{
+  header {
+    margin: 0; /* keep edge-to-edge at this breakpoint too */
+  }
+
+  header ul {
+    padding: 25px 15px;
+  }
+
+  header li {
+    margin-right: 30px;
+  }
+
+  header ul li a {
+    font-size: 18px;
+  }
+
+  .start {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .logo h1 {
+    font-size: 26px;
+  }
+
+  .start {
+    clip-path: none;
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  header {
     margin: 0;
     background-color: #1eb2a6;
     position: relative;
   }
 
   header ul li {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-right: 0;
   }
 
-  header ul.flexSB{
+  header ul li a {
+    font-size: 16px;
+  }
+
+  header ul.flexSB {
     display: none;
   }
 
@@ -211,21 +164,164 @@ header ul li a.active::after {
     bottom: -5px;
   }
 
-  .toggle{
-    display: block;
-    background: none;
+  .toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(186, 104, 200, 0.9);
     color: #fff;
-    font-style: 30px;
-    position: absolute;
-    right: -25px;
-    top: -33px;
+    font-size: 24px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    padding: 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 48px;
+    height: 48px;
+    line-height: 1;
+    box-sizing: border-box;
   }
 
-  .mobile-nav{
-    position: absolute;
-    top: 4vh;
+  .toggle i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    pointer-events: none;
+    /* avoid click target being the icon only */
+  }
+
+  .toggle:hover {
+    background-color: rgba(186, 104, 200, 1);
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  .mobile-nav {
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
-    background-color: #1eb2a6;
+    height: 100vh;
+    background-color: rgba(30, 178, 166, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 80px 20px 20px;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .mobile-nav.active {
+    transform: translateX(0);
+  }
+
+  .mobile-nav ul {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .mobile-nav li {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile-nav li a {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    color: #fff;
+    /* ensure base contrast on teal background */
+  }
+
+  .mobile-nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+
+  /* Improve active item visibility in mobile nav */
+  .mobile-nav li a.active {
+    color: #fff;
+    /* keep high contrast */
+    background-color: rgba(186, 104, 200, 0.25);
+    border-left: 4px solid #BA68C8;
+  }
+
+  .mobile-nav li a.active::after {
+    display: none;
+    /* hide desktop underline in mobile */
+    content: none;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .head {
+    padding: 15px 0;
+  }
+
+  .logo h1 {
+    font-size: 22px;
+  }
+
+  .head .icon {
+    margin-left: 8px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  header ul {
+    padding: 20px 10px;
+  }
+
+  header ul li a {
+    font-size: 15px;
+  }
+
+  .start {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .toggle {
+    font-size: 20px;
+    right: 15px;
+    top: 15px;
+    padding: 0 20px 0 0;
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
+  }
+
+  .mobile-nav {
+    padding: 15px;
+    top: 3vh;
+  }
+
+  .mobile-nav ul {
+    padding: 8px 0;
+  }
+
+  .mobile-nav li {
+    margin-bottom: 12px;
+  }
+
+  header ul li a.active::after {
+    height: 2px;
+    bottom: -3px;
   }
 }

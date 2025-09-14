@@ -48,16 +48,132 @@
   word-spacing: 5px;
 }
 
+/* Enhanced Mobile Responsiveness for Contact Component */
+
+/* Large tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .contact .right {
+    padding: 40px;
+  }
+  
+  .contact h1 {
+    font-size: 28px;
+  }
+  
+  .contact p {
+    margin: 25px 0;
+  }
+}
+
+/* Tablets */
 @media screen and (max-width: 768px) {
-  .contact .container{
+  .contact .container {
     flex-direction: column;
   }
 
-  .contact iframe{
-    height: 50vn;
+  .contact iframe {
+    height: 300px;
+    margin-bottom: 20px;
   }
 
-  .contact .row{
+  .contact .row {
     width: 100%;
+  }
+  
+  .contact .right {
+    padding: 30px 20px;
+  }
+  
+  .contact h1 {
+    font-size: 26px;
+  }
+  
+  .contact p {
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  .contact .box p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  .contact textarea,
+  .contact input {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+  
+  .contact .flexSB {
+    flex-direction: column;
+  }
+  
+  .contact .flexSB input:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  
+  .contact h3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .contact span {
+    font-size: 15px;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .contact .right {
+    padding: 20px 15px;
+  }
+  
+  .contact h1 {
+    font-size: 22px;
+  }
+  
+  .contact p {
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .contact .box p {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  
+  .contact textarea,
+  .contact input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .contact iframe {
+    height: 250px;
+    margin-bottom: 15px;
+  }
+  
+  .contact h3 {
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  
+  .contact span {
+    font-size: 14px;
+    word-spacing: 3px;
+  }
+  
+  .contact button {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    margin-top: 10px;
   }
 }
