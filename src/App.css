@@ -274,7 +274,7 @@ p {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  padding-top: 30%;
+  padding-top: 15%;
   padding-right: 50px;
   /* color: #fff; */
   color: #BA68C8;
@@ -409,6 +409,17 @@ p {
     font-size: 60px;
   }
 
+  /* Enhanced centering for backMetodologia on small screens */
+  .backMetodologia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 0;
+    font-size: 84px;
+  }
+
   .back h2,
   .backDocentes h2,
   .backPagos h2,
@@ -473,6 +484,17 @@ p {
     font-size: 40px;
     padding-top: 35%;
     height: 60vh;
+  }
+
+  /* Enhanced centering for backMetodologia on very small screens */
+  .backMetodologia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 0;
+    font-size: 56px;
   }
 
   button {

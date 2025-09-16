@@ -65,92 +65,70 @@ const Header = () => {
   };
 
   return (
-    <>
-      {" "}
-      <header>
-        {" "}
-        <Head />{" "}
-        <nav className="flexSB">
-          {" "}
-          <ul
-            className={click ? "mobile-nav active" : "flexSB"}
-            onClick={() => setClick(false)}
-          >
-            {" "}
-            <li>
-              {" "}
-              <Link to="/" className={isActive("/") ? "active" : ""}>
-                {" "}
-                Home{" "}
-              </Link>{" "}
-            </li>{" "}
-            <li>
-              {" "}
-              <Link
-                to="/courses"
-                className={isActive("/courses") ? "active" : ""}
-              >
-                {" "}
-                Nuestra Metodología{" "}
-              </Link>{" "}
-            </li>{" "}
-            <li>
-              {" "}
-              <Link to="/about" className={isActive("/about") ? "active" : ""}>
-                {" "}
-                Nosotros{" "}
-              </Link>{" "}
-            </li>{" "}
-            <li>
-              {" "}
-              <Link to="/team" className={isActive("/team") ? "active" : ""}>
-                {" "}
-                Docentes{" "}
-              </Link>{" "}
-            </li>{" "}
-            <li>
-              {" "}
-              <Link
-                to="/payment"
-                className={isActive("/payment") ? "active" : ""}
-              >
-                {" "}
-                Pagos{" "}
-              </Link>{" "}
-            </li>{" "}
-            <li>
-              {" "}
-              <Link to="/blog" className={isActive("/blog") ? "active" : ""}>
-                {" "}
-                Actividades{" "}
-              </Link>{" "}
-            </li>{" "}
-            <li>
-              {" "}
-              <Link
-                to="/contact"
-                className={isActive("/contact") ? "active" : ""}
-              >
-                {" "}
-                Contactos{" "}
-              </Link>{" "}
-            </li>{" "}
-          </ul>{" "}
-          <Link to="/about" className="start">
-            {" "}
-            <div className="button">Descubre tu potencial</div>{" "}
-          </Link>{" "}
-          <button className="toggle" onClick={() => setClick(!click)}>
-            {" "}
-            {click ? (
-              <i className="fa fa-times"></i>
-            ) : (
-              <i className="fa fa-bars"></i>
-            )}
-          </button>{" "}
-        </nav>{" "}
-      </header>{" "}
-    </>
+    <header>
+      <Head />
+      <nav className="flexSB">
+        <ul
+          className={click ? "mobile-nav active" : "flexSB"}
+          onClick={() => setClick(false)}
+        >
+          <li>
+            <Link to="/" className={isActive("/") ? "active" : ""}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/courses"
+              className={isActive("/courses") ? "active" : ""}
+            >
+              Nuestra Metodología
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className={isActive("/about") ? "active" : ""}>
+              Nosotros
+            </Link>
+          </li>
+          <li>
+            <Link to="/team" className={isActive("/team") ? "active" : ""}>
+              Docentes
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/payment"
+              className={isActive("/payment") ? "active" : ""}
+            >
+              Pagos
+            </Link>
+          </li>
+          <li>
+            <Link to="/blog" className={isActive("/blog") ? "active" : ""}>
+              Actividades
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className={isActive("/contact") ? "active" : ""}
+            >
+              Contactos
+            </Link>
+          </li>
+        </ul>
+        <Link to="/about" className="start">
+          <div className="button">Descubre tu potencial</div>
+        </Link>
+        <button className="toggle" onClick={() => setClick(!click)}>
+          {click ? (
+            <i className="fa fa-times"></i>
+          ) : (
+            <i className="fa fa-bars"></i>
+          )}
+        </button>
+      </nav>
+    </header>
   );
 };
 

@@ -18,9 +18,10 @@
 
 /****************************HEADER*******************************/
 
-header{
+header {
   background-color: rgba(186, 104, 200, 0.2);
-  margin: 0; /* remove side gaps on desktop */
+  margin: 0;
+  /* remove side gaps on desktop */
   position: relative;
   z-index: 2;
 }
@@ -107,7 +108,8 @@ header ul li a.active::after {
   }
 
   header {
-    margin: 0; /* keep edge-to-edge at this breakpoint too */
+    margin: 0;
+    /* keep edge-to-edge at this breakpoint too */
   }
 
   header ul {

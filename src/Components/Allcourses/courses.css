@@ -1,14 +1,14 @@
-.courseCard{
+.courseCard {
   padding: 50px 0;
 }
 
-.courseCard .items{
+.courseCard .items {
   background-color: #fff;
   padding: 30px;
   text-align: center;
 }
 
-.courseCard .img{
+.courseCard .img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -16,30 +16,30 @@
   padding: 15px;
 }
 
-.courseCard img{
+.courseCard img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.courseCard .text{
+.courseCard .text {
   margin-left: 15px;
   text-align: center;
 }
 
-.courseCard .text h1{
+.courseCard .text h1 {
   font-style: 30px;
   font-weight: 500;
   line-height: 45px;
 }
 
-.courseCard .rate{
-    margin: 20px 0;
-    color: #1eb2a6;
-    margin-right: 5px;
+.courseCard .rate {
+  margin: 20px 0;
+  color: #1eb2a6;
+  margin-right: 5px;
 }
 
-.courseCard .details .dimg img{
+.courseCard .details .dimg img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -50,65 +50,65 @@
   margin-left: 60px;
 }
 
-.courseCard .details .box{
+.courseCard .details .box {
   display: flex;
   align-items: center;
   color: grey;
 }
 
-.courseCard .details span{
+.courseCard .details span {
   color: #1eb2a6;
   font-weight: 500;
   font-size: 14px;
 }
 
-.courseCard .price{
+.courseCard .price {
   margin: 30px;
   background-color: #f8f8f8f8;
   padding: 10px;
 }
 
-.courseCard h3{
+.courseCard h3 {
   font-weight: 500;
   color: #1eb2a6;
 }
 
-.online{
+.online {
   text-align: center;
 }
 
-.online .box{
+.online .box {
   box-shadow: 0 6px 25px -2 rgba(0 0 0 /6%);
   background-color: #fff;
   padding: 30px 20px;
   transition: 0.5s;
 }
 
-.online .img{
+.online .img {
   width: 80px;
   margin: 80px;
   margin: auto;
   position: relative;
 }
 
-.online img{
+.online img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.online .box:hover{
+.online .box:hover {
   transform: translateY(-10px);
 }
 
-.online h1{
+.online h1 {
   font-weight: 500;
   font-family: 20px;
   margin: 20px 0;
   line-height: 30px;
 }
 
-.online span{
+.online span {
   background-color: #f8f8f8f8;
   padding: 5px 20px;
   font-weight: 500;
@@ -117,80 +117,216 @@
   border-radius: 5px;
 }
 
-.online .box .show{
+.online .box .show {
   opacity: 0;
 }
 
-.online .box:hover{
+.online .box:hover {
   background-color: #1eb2a6;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.online .box:hover .show{
+.online .box:hover .show {
   opacity: 1;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.online .box:hover h1{
+.online .box:hover h1 {
   color: #fff;
 }
 
-.online .box:hover .show a{
+.online .box:hover .show a {
   color: #fff;
 }
 
 /****************METODOLOGIA***************/
-.metodologia{
+.metodologia {
   height: auto;
-  margin-top: 780px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  padding: 40px 0;
 }
 
-.metodologia #heading{
-  text-align: left;
-  padding: 0;
+.metodologia .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.metodologia .left img{
+.metodologia-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.metodologia-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.metodologia-image img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: 500px;
   object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  aspect-ratio: 4/3;
 }
 
-.metodologia .right{
-  padding: 80px 50px;
+.metodologia-image img:hover {
+  transform: scale(1.02);
 }
 
-.metodologia .right h2{
+.metodologia-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.metodologia-text header h1 {
   color: #1eb2a6;
-  margin-bottom: 20px;
-  margin-top: -50px;
-  font-size: 50px;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
-.metodologia .right p{
-  margin-bottom: 20px;
+/* --- Metodologia responsive enhancements (appended overrides) --- */
+.metodologia-text header h1 {
+  /* Fluid typography for better responsiveness */
+  font-size: clamp(28px, 5vw, 48px);
 }
 
-/* Enhanced Mobile Responsiveness for Courses Component */
+.metodologia-text .content {
+  /* Constrain line length for comfortable reading */
+  max-width: 70ch;
+}
+
+.metodologia-text .content p {
+  /* Avoid overflow on long words/URLs */
+  overflow-wrap: anywhere;
+}
+
+/* Remove pinkish background applied by global header styles */
+.metodologia header,
+.metodologia-text header,
+.metodologia-text header h1 {
+  background: transparent !important;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .metodologia-image img {
+    transition: none !important;
+  }
+
+  .metodologia-image img:hover {
+    transform: none !important;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .metodologia-text header h1 {
+    font-size: clamp(24px, 5.5vw, 36px);
+  }
+
+  .metodologia-text .content {
+    max-width: 62ch;
+    margin: 0 auto;
+    padding: 0 4px;
+  }
+
+  .metodologia-text .content p {
+    text-align: left;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .metodologia-text header h1 {
+    font-size: clamp(22px, 6vw, 28px);
+  }
+
+  .metodologia-text .content {
+    max-width: 58ch;
+  }
+
+  .metodologia-text .content p {
+    text-align: left;
+  }
+}
+
+/* Extra small phones */
+@media screen and (max-width: 360px) {
+  .metodologia-text .content p {
+    text-align: left;
+  }
+}
+
+/* Large desktops */
+@media screen and (min-width: 1400px) {
+  .metodologia .container {
+    max-width: 1400px;
+  }
+
+  .metodologia-content {
+    gap: 80px;
+  }
+
+  .metodologia-text header h1 {
+    font-size: 56px;
+  }
+
+  .metodologia-text .content p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .metodologia-image img {
+    max-height: 600px;
+  }
+}
 
 /* Large tablets and small desktops */
 @media screen and (max-width: 1024px) {
   .courseCard .items {
     padding: 25px;
   }
-  
-  .metodologia .right {
-    padding: 60px 30px;
+
+  .metodologia {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 30px 0;
   }
-  
-  .metodologia .right h2 {
+
+  .metodologia-content {
+    gap: 40px;
+  }
+
+  .metodologia-image img {
+    max-height: 400px;
+    aspect-ratio: 16/10;
+  }
+
+  .metodologia-text {
+    padding: 15px;
+  }
+
+  .metodologia-text header h1 {
     font-size: 42px;
   }
-  
+
+  .metodologia-text .content p {
+    font-size: 15px;
+  }
+
   .online .img {
     margin: 60px auto;
   }
@@ -200,68 +336,118 @@
 @media screen and (max-width: 768px) {
   .metodologia {
     margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 20px 0;
   }
-  
+
+  .metodologia-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .metodologia-image {
+    min-width: auto;
+    order: 2;
+  }
+
+  .metodologia-image img {
+    max-height: 240px;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+  }
+
+  .metodologia-text {
+    min-width: auto;
+    padding: 0;
+    order: 1;
+  }
+
+  /* Place content below hero and render in white card */
+  .metodologia.margin {
+    margin-top: 65vh;
+  }
+
+  .metodologia-text {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px -2 rgba(0 0 0 / 6%);
+    padding: 16px;
+    /* Pull card up to remove white gap below hero */
+    margin-top: -18px;
+  }
+
+  .metodologia-text header h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .metodologia-text .content p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+  }
+
   .courseCard {
     padding: 30px 0;
   }
-  
+
   .courseCard .items {
     padding: 20px;
     margin-bottom: 20px;
   }
-  
+
   .courseCard .img {
     width: 70px;
     height: 70px;
     padding: 12px;
   }
-  
+
   .courseCard .text h1 {
     font-size: 24px;
     line-height: 32px;
   }
-  
+
   .courseCard .details .dimg img {
     width: 45px;
     height: 45px;
     margin-top: 15px;
   }
-  
+
   .courseCard .details .para {
     margin-left: 50px;
   }
-  
+
   .courseCard .price {
     margin: 20px 0;
     padding: 8px;
   }
-  
+
   .online .box {
     padding: 25px 15px;
     margin-bottom: 20px;
   }
-  
+
   .online .img {
     width: 70px;
     margin: 40px auto;
   }
-  
+
   .online h1 {
     font-size: 18px;
     line-height: 26px;
     margin: 15px 0;
   }
-  
+
   .online span {
     padding: 4px 15px;
     font-size: 13px;
   }
-  
+
   .metodologia .right {
     padding: 40px 20px;
   }
-  
+
   .metodologia .right h2 {
     font-size: 36px;
     margin-top: -30px;
@@ -273,84 +459,165 @@
   .courseCard {
     padding: 20px 0;
   }
-  
+
   .courseCard .items {
     padding: 15px;
     margin-bottom: 15px;
   }
-  
+
   .courseCard .img {
     width: 60px;
     height: 60px;
     padding: 10px;
   }
-  
+
   .courseCard .text h1 {
     font-size: 20px;
     line-height: 28px;
   }
-  
+
   .courseCard .details .dimg img {
     width: 40px;
     height: 40px;
     margin-top: 12px;
   }
-  
+
   .courseCard .details .para {
     margin-left: 45px;
   }
-  
+
   .courseCard .details .box {
     font-size: 14px;
   }
-  
+
   .courseCard .details span {
     font-size: 12px;
   }
-  
+
   .courseCard .price {
     margin: 15px 0;
     padding: 6px;
   }
-  
+
   .courseCard h3 {
     font-size: 16px;
   }
-  
+
   .online .box {
     padding: 20px 12px;
     margin-bottom: 15px;
   }
-  
+
   .online .img {
     width: 60px;
     margin: 30px auto;
   }
-  
+
   .online h1 {
     font-size: 16px;
     line-height: 22px;
     margin: 12px 0;
   }
-  
+
   .online span {
     padding: 3px 12px;
     font-size: 12px;
   }
-  
-  .metodologia .right {
-    padding: 30px 15px;
+
+  .metodologia {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px 0;
   }
-  
-  .metodologia .right h2 {
+
+  .metodologia .container {
+    padding: 0 15px;
+  }
+
+  .metodologia-content {
+    gap: 25px;
+  }
+
+  .metodologia-image img {
+    max-height: 180px;
+    aspect-ratio: 16/9;
+  }
+
+  .metodologia-text header h1 {
     font-size: 28px;
-    margin-top: -20px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
+    text-align: center;
   }
-  
-  .metodologia .right p {
+
+  .metodologia-text .content p {
     margin-bottom: 15px;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 1.6;
+  }
+
+  /* Adjust placement and card padding for very small screens */
+  .metodologia.margin {
+    margin-top: 60vh;
+  }
+
+  .metodologia-text {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px -2 rgba(0 0 0 / 6%);
+    padding: 14px;
+    /* Slightly stronger pull on very small screens */
+    margin-top: -120px;
+  }
+}
+
+/* Extra small devices (phones, 360px and down) */
+@media screen and (max-width: 360px) {
+  .metodologia {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 10px 0;
+  }
+
+  .metodologia .container {
+    padding: 0 10px;
+  }
+
+  .metodologia-content {
+    gap: 20px;
+  }
+
+  .metodologia-image img {
+    max-height: 150px;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+  }
+
+  .metodologia-text header h1 {
+    font-size: 24px;
+    padding: 0;
+  }
+
+
+  /* Ensure section appears below hero and render text in white card */
+  .metodologia.margin {
+    margin-top: 70vh;
+  }
+
+  .metodologia-text {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px -2 rgba(0 0 0 / 6%);
+    padding: 16px;
+    margin-top: -14px;
+  }
+
+  .metodologia-text .content p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .metodologia-image img {
+    border-radius: 8px;
   }
 }
